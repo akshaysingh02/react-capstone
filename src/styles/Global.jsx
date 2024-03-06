@@ -48,9 +48,6 @@ export const Container = styled.div`
   width: 100%;
   max-width: 1160px;
   margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 `;
 
 export const Heading1 = styled.h1`
