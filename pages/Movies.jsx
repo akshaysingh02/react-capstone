@@ -126,6 +126,7 @@ const Movies = () => {
     if(selected.length < 3){
       return
     } else {
+      localStorage.setItem("MoviesGenre", JSON.stringify(selected))
       navigate('/display')
     }
   }

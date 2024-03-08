@@ -115,6 +115,7 @@ const RegisterForm = () => {
       setErrors((prev)=>({...prev, checkbox: null}))
     }
     if(!isErrors) {
+      localStorage.setItem("UserInfo",JSON.stringify(formValues))
       navigate("/movies")
     }
   }
